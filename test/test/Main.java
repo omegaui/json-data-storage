@@ -1,8 +1,3 @@
-# json-data-storage
-A tiny json based application data utility.
-
-Sample Usage
-```java
 package test;
 
 import omegaui.io.storage.DataStorage;
@@ -14,5 +9,3 @@ public class Main {
         System.out.println(dataStorage.getString("theme"));
     }
 }
-
-```
