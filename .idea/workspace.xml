@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="599e1525-8a88-4b96-954e-9406d6257b1d" name="Changes" comment="Source Upload!">
-      <change afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config/storage/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.config/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/omegaui/io/storage/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/omegaui/io/storage/DataStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/omegaui/io/storage/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/omegaui/io/storage/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="599e1525-8a88-4b96-954e-9406d6257b1d" name="Changes" comment="📢 Stable Release v1.0!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,12 +88,20 @@
       <option name="project" value="LOCAL" />
       <updated>1674329638414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="📢 Stable Release v1.0!">
+      <created>1674375184408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674375184408</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Source Upload!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Source Upload!" />
+    <MESSAGE value=" Stable Release v1.0!" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Stable Release v1.0!" />
   </component>
 </project>

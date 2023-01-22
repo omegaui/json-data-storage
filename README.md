@@ -1,7 +1,7 @@
 # json-data-storage
 A tiny json based application data utility for Java.
 
-
+# Usage
 ```java
 import omegaui.io.storage.DataStorage;
 
