@@ -92,6 +92,10 @@ public class DataStorage {
     public void reload(){
         load();
     }
+
+    private void save() {
+        FileUtils.write(storeFile, json.toString(4));
+    }
     public void put(String key, Object value){
         if(value instanceof Collection<?> collection)
             json.put(key, collection);
@@ -99,27 +103,28 @@ public class DataStorage {
             json.put(key, map);
         else
             json.put(key, value);
-        FileUtils.write(storeFile, json.toString(4));
+        save();
     }
+
     public void put(String key, int value){
         json.put(key, value);
-        FileUtils.write(storeFile, json.toString(4));
+        save();
     }
     public void put(String key, long value){
         json.put(key, value);
-        FileUtils.write(storeFile, json.toString(4));
+        save();
     }
     public void put(String key, double value){
         json.put(key, value);
-        FileUtils.write(storeFile, json.toString(4));
+        save();
     }
     public void put(String key, float value){
         json.put(key, value);
-        FileUtils.write(storeFile, json.toString(4));
+        save();
     }
     public void put(String key, boolean value){
         json.put(key, value);
-        FileUtils.write(storeFile, json.toString(4));
+        save();
     }
     public Object get(String key){
         return json.get(key);

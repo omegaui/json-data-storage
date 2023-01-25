@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="599e1525-8a88-4b96-954e-9406d6257b1d" name="Changes" comment="📢 Stable Release v1.0!" />
+    <list default="true" id="599e1525-8a88-4b96-954e-9406d6257b1d" name="Changes" comment="📢 Stable Release v1.0!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/omegaui/io/storage/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/omegaui/io/storage/DataStorage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +47,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/omegaui/IdeaProjects/json-data-storage/lib&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -95,13 +99,25 @@
       <option name="project" value="LOCAL" />
       <updated>1674375184408</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="📢 Stable Release v1.0!">
+      <created>1674376387551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674376387551</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Source Upload!" />
     <MESSAGE value=" Stable Release v1.0!" />
+    <MESSAGE value=" Stable Release v1.0!" />
     <option name="LAST_COMMIT_MESSAGE" value=" Stable Release v1.0!" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
