@@ -1,13 +1,13 @@
-# json-data-storage
+# ![](https://img.icons8.com/3d-fluency/48/null/3d-fluency-database.png) json-data-storage
 A tiny json based application data utility for Java.
 
-# Features
+# ![](https://img.icons8.com/3d-fluency/48/null/tape-measure-sewing.png) Features
 - No Redundancy
 - Easily Handles multiple references of same Storage
 - Real-Time Write i.e Automatically Saves file on changes
 - Auto constructs the entire path
 
-# Usage
+# ![](https://img.icons8.com/3d-fluency/48/null/nui2.png) Usage
 All we need is a DataStorage object.
 
 ### Basic Call
@@ -30,7 +30,7 @@ storage.put("theme", "dark");
 
 #### Note: DataStorage.getStorage() **auto-constructs** the path if it doesn't already exist
 
-# Handling Multiple References
+# ![](https://img.icons8.com/3d-fluency/48/null/smartphone-tablet.png) Handling Multiple References
 
 Now, if there are multiple cases requesting the reference to the same DataStorage object, so instead of 
 creating multiple instances pointing to the same storage location, 
