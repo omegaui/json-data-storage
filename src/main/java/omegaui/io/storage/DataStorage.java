@@ -51,7 +51,8 @@ public class DataStorage {
     public static DataStorage getStorage(String... paths){
         String name = FileUtils.join(paths);
         if(paths.length == 1){
-            name += ".json";
+            if(!name.endsWith(".json"))
+                name += ".json";
         }
         name = new File(name).getAbsolutePath();
         for(DataStorage dataStorage : storages){

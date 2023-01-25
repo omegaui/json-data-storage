@@ -1,16 +1,67 @@
 # json-data-storage
 A tiny json based application data utility for Java.
 
-# Usage
-```java
-import omegaui.io.storage.DataStorage;
+# Features
+- No Redundancy
+- Easily Handles multiple references of same Storage
+- Real-Time Write i.e Automatically Saves file on changes
+- Auto constructs the entire path
 
-public class Main {
-    public static void main(String[] args) {
-        DataStorage dataStorage = DataStorage.getStorage("settings");
-        dataStorage.put("theme", "atom light");
-        DataStorage dataStorage1 = DataStorage.getStorage(".config", "settings.json");
-        System.out.println(dataStorage1.getString("theme"));
+# Usage
+All we need is a DataStorage object.
+
+### Basic Call
+
+````java
+DataStorage storage = DataStorage.getStorage("settings"); // auto adds ".json suffix", the call is equivalent to "settings.json"
+storage.put("theme", "dark");
+// When put(String, Object) is called 
+// The above line will finish off writing settings.json in the current working directory
+````
+
+### Advanced Call
+
+````java
+DataStorage storage = DataStorage.getStorage(".config", "settings.json");
+storage.put("theme", "dark");
+// When put(String, Object) is called 
+// The above line will finish off writing settings.json in the .config working directory
+````
+
+#### Note: DataStorage.getStorage() **auto-constructs** the path if it doesn't already exist
+
+# Handling Multiple References
+
+Now, if there are multiple cases requesting the reference to the same DataStorage object, so instead of 
+creating multiple instances pointing to the same storage location, 
+**the same instance is referenced at every call**.
+
+Example:
+```java
+public class Preferences{
+    public void saveTheme(){
+        DataStorage storage = DataStorage.getStorage(".config", "settings.json");
+        storage.put("theme", "dark");
+    }
+    
+    public void saveUserInfo(){
+        DataStorage storage = DataStorage.getStorage(".config", "settings.json");
+        storage.put("username", "iron-man");
+        storage.put("password", "!@#$%^&*^");
     }
 }
 ```
+
+Although, the **storage** objects request the same json file, so instead of creating multiple references 
+of the class, a single instance is shared to both.
+
+<div align="center">
+    <img src="/images/json-data-storage-reference-handle-illustration.png"/>
+</div>
+
+its Like
+```java
+storage1 = storage2 = the_shared_object
+```
+
+
