@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/json-data-storage.iml" filepath="$PROJECT_DIR$/json-data-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-data-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/json-data-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-data-storage.main.iml" filepath="$PROJECT_DIR$/.idea/modules/json-data-storage.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-data-storage.test.iml" filepath="$PROJECT_DIR$/.idea/modules/json-data-storage.test.iml" />
     </modules>
   </component>
 </project>
