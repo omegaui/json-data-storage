@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]" date="1674666804388" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 1/25/23, 10:43 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/omegaui/io/storage/FileUtils.class" />
+    <option name="AFTER_PATH" value="build/classes/java/main/omegaui/io/storage/FileUtils.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]/FileUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/7.5.1/executionHistory/executionHistory.lock" />
+    <option name="AFTER_PATH" value=".gradle/7.5.1/executionHistory/executionHistory.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]/executionHistory.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/file-system.probe" />
+    <option name="AFTER_PATH" value=".gradle/file-system.probe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]/file-system.probe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <option name="AFTER_PATH" value=".gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]/buildOutputCleanup.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/7.5.1/checksums/checksums.lock" />
+    <option name="AFTER_PATH" value=".gradle/7.5.1/checksums/checksums.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]/checksums.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/7.5.1/fileHashes/fileHashes.lock" />
+    <option name="AFTER_PATH" value=".gradle/7.5.1/fileHashes/fileHashes.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]/fileHashes.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/omegaui/io/storage/DataStorage.class" />
+    <option name="AFTER_PATH" value="build/classes/java/main/omegaui/io/storage/DataStorage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_25_23,_10_43_PM_[Changes]/DataStorage.class" />
+  </binary>
+</changelist>

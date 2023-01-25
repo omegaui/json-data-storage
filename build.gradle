@@ -1,12 +1,69 @@
 plugins {
     id 'java'
+    id 'java-library'
+    id 'maven-publish'
+    id 'signing'
 }
 
-group 'org.example'
+group 'io.github.omegaui'
 version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = 'json-data-storage'
+            from components.java
+            versionMapping {
+                usage('java-api') {
+                    fromResolutionOf('runtimeClasspath')
+                }
+                usage('java-runtime') {
+                    fromResolutionResult()
+                }
+            }
+            pom {
+                name = 'json-data-storage'
+                description = 'A tiny json based application data utility. '
+                url = 'https://github.com/omegaui/json-data-storage'
+                licenses {
+                    license {
+                        name = 'GNU General Public License v3.0'
+                        url = 'https://www.gnu.org/licenses/gpl-3.0.en.html'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'omegaui'
+                        name = 'Omega UI'
+                        email = 'omegaui22@gmail.com'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git://github.com/omegaui/json-data-storage.git'
+                    developerConnection = 'scm:git:ssh://github.com/omegaui/json-data-storage.git'
+                    url = 'http://github.com/omegaui/json-data-storage'
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            def releasesRepoUrl = layout.buildDirectory.dir('repos/releases')
+            def snapshotsRepoUrl = layout.buildDirectory.dir('repos/snapshots')
+            url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
+        }
+    }
+}
+
+
+signing {
+    sign publishing.publications.mavenJava
 }
 
 dependencies {
