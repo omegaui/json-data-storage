@@ -2,7 +2,7 @@
  * DataStorage utility helps in quickly operating on json files.
  * It can be used to save project settings and other stuff.
  * @author: omegaui
- * Copyright (C) 2021 Omega UI
+ * Copyright (C) 2023 Omega UI
 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -28,6 +28,10 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Map;
 
+/**
+ * omegaui.io.storage.DataStorage
+ * Capable of reading, writing and querying JSON file.
+ */
 public class DataStorage {
     /*
         Holds the json data.
@@ -94,9 +98,17 @@ public class DataStorage {
         load();
     }
 
+    /*
+        Saves the json object to the source file.
+     */
     private void save() {
-        FileUtils.write(storeFile, json.toString(4));
+        if(!FileUtils.write(storeFile, json.toString(4))){
+            throw new RuntimeException("DataStorage unable to save data: " + storeFile);
+        }
     }
+    /*
+        Adds/Updates an object.
+     */
     public void put(String key, Object value){
         if(value instanceof Collection<?> collection)
             json.put(key, collection);
@@ -107,43 +119,110 @@ public class DataStorage {
         save();
     }
 
+    /*
+        Adds/Updates an object.
+     */
     public void put(String key, int value){
         json.put(key, value);
         save();
     }
+    /*
+        Adds/Updates an object.
+     */
     public void put(String key, long value){
         json.put(key, value);
         save();
     }
+    /*
+        Adds/Updates an object.
+     */
     public void put(String key, double value){
         json.put(key, value);
         save();
     }
+    /*
+        Adds/Updates an object.
+     */
     public void put(String key, float value){
         json.put(key, value);
         save();
     }
+    /*
+        Adds/Updates an object.
+     */
     public void put(String key, boolean value){
         json.put(key, value);
         save();
     }
+    /*
+        Used for quick traversing on nested json objects.
+        Example:
+        {
+            "values": {
+                "x": "1",
+                "y": "2"
+            },
+            "theme": "atom light"
+        }
+        example call: query("values", "x") will give value 1
+     */
+    public Object query(String... tree){
+        Object source = getJSON(tree[0]);
+        for(int i = 1; i < tree.length; i++){
+            if(source instanceof JSONObject jsonObject)
+                source = jsonObject.get(tree[i]);
+        }
+        return source;
+    }
+
+    /*
+        Returns an unknown object.
+     */
     public Object get(String key){
         return json.get(key);
     }
-    public Object getString(String key){
+
+    /*
+        Returns a json object.
+     */
+    public JSONObject getJSON(String key){
+        return json.getJSONObject(key);
+    }
+    /*
+        Returns a string.
+     */
+    public String getString(String key){
         return json.getString(key);
     }
-    public Object getInt(String key){
+    /*
+        Returns an integer value.
+     */
+    public int getInt(String key){
         return json.getInt(key);
     }
-    public Object getLong(String key){
+    /*
+        Returns a long integer.
+     */
+    public long getLong(String key){
         return json.getLong(key);
     }
-    public Object getFloat(String key){
+    /*
+        Returns a floating value.
+     */
+    public float getFloat(String key){
         return json.getFloat(key);
     }
-    public Object getDouble(String key){
+    /*
+        Returns a double-type floating value.
+     */
+    public double getDouble(String key){
         return json.getDouble(key);
+    }
+    /*
+        Returns a boolean value.
+     */
+    public boolean getBoolean(String key){
+        return json.getBoolean(key);
     }
     /*
         Returns the absolute path of the data store file.

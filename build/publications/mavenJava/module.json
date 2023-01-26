@@ -27,11 +27,11 @@
         {
           "name": "json-data-storage-1.0-SNAPSHOT.jar",
           "url": "json-data-storage-1.0-SNAPSHOT.jar",
-          "size": 4421,
-          "sha512": "6741a0d91b196466aceb00f4a29987189985d5f7e624efb33a6697bb00cb945d5755c9f2dc9e8c66902f76d190155da4cf7358f4ca672a63cfb285dfe16ce464",
-          "sha256": "e86bf72e2834dc910653af4aa20553720a3a74176511150d30a1d4a7bf67d1e5",
-          "sha1": "f89936f640048e9eeadfbb60926147c47d8e14f9",
-          "md5": "9c5cef249a3d6e39275e2a711f66f9c3"
+          "size": 4759,
+          "sha512": "651805c006ecfc59ba37c61af28075358563d7f54da60b936c5304b2982d7bbf5f3d6e99410522925c18ac020d88bf4bb950faeead655e5077f8d0db32c5cc18",
+          "sha256": "a67dceb56afb22a0a04d0a8e6b03bbda6b74564b912a48b0cbca2bfa88b83293",
+          "sha1": "72572e1862b9f21182699cfe100848efe14337f7",
+          "md5": "25af8e5f004c3ac7c692c3ed80c253b2"
         }
       ]
     },
@@ -57,11 +57,11 @@
         {
           "name": "json-data-storage-1.0-SNAPSHOT.jar",
           "url": "json-data-storage-1.0-SNAPSHOT.jar",
-          "size": 4421,
-          "sha512": "6741a0d91b196466aceb00f4a29987189985d5f7e624efb33a6697bb00cb945d5755c9f2dc9e8c66902f76d190155da4cf7358f4ca672a63cfb285dfe16ce464",
-          "sha256": "e86bf72e2834dc910653af4aa20553720a3a74176511150d30a1d4a7bf67d1e5",
-          "sha1": "f89936f640048e9eeadfbb60926147c47d8e14f9",
-          "md5": "9c5cef249a3d6e39275e2a711f66f9c3"
+          "size": 4759,
+          "sha512": "651805c006ecfc59ba37c61af28075358563d7f54da60b936c5304b2982d7bbf5f3d6e99410522925c18ac020d88bf4bb950faeead655e5077f8d0db32c5cc18",
+          "sha256": "a67dceb56afb22a0a04d0a8e6b03bbda6b74564b912a48b0cbca2bfa88b83293",
+          "sha1": "72572e1862b9f21182699cfe100848efe14337f7",
+          "md5": "25af8e5f004c3ac7c692c3ed80c253b2"
         }
       ]
     }

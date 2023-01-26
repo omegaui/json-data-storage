@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"omegaui.io.storage","l":"DataStorage"},{"p":"omegaui.io.storage","l":"FileUtils"}];updateSearchResults();

@@ -1,7 +1,7 @@
 /**
  * Common FileUtils.
  * @author: omegaui
- * Copyright (C) 2021 Omega UI
+ * Copyright (C) 2023 Omega UI
 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,7 +24,14 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/**
+ * omegaui.io.storage.FileUtils
+ * Contains common file utility methods.
+ */
 public class FileUtils {
+    /*
+        Constructs a path by joining nodes.
+     */
     public static String join(String... paths){
         StringBuilder result = new StringBuilder();
         for(String path : paths){
@@ -32,7 +39,9 @@ public class FileUtils {
         }
         return result.substring(0, result.length() - 1);
     }
-
+    /*
+        Reads and returns the content of a text file.
+     */
     public static String read(File file){
         if(!file.exists()){
             return null;
@@ -47,15 +56,24 @@ public class FileUtils {
         }
         return content;
     }
-    public static void write(File file, String content){
+    /*
+        Writes content to a text file.
+        Returns true on successful write operation.
+     */
+    public static boolean write(File file, String content){
         File parent = file.getParentFile();
         if(parent != null) {
-            parent.mkdirs();
+            if(!parent.mkdirs()){
+                System.err.println("Cannot construct the parent directories: " + file);
+                return false;
+            }
         }
         try (PrintWriter writer = new PrintWriter(file)) {
             writer.print(content);
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            System.err.println("File not Found: " + file);
+            return false;
         }
+        return true;
     }
 }

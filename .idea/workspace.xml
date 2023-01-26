@@ -5,65 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00016e3e-b102-460d-b47d-49e13f4a35f9" name="Changes" comment="🚀 Added pom.xml!">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/json-data-storage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/json-data-storage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.config/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/omegaui/io/storage/DataStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/omegaui/io/storage/DataStorage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/omegaui/io/storage/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/omegaui/io/storage/FileUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/json-data-storage-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/json-data-storage-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/json-data-storage-1.0-SNAPSHOT.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/publications/mavenJava/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/publications/mavenJava/module.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/publications/mavenJava/module.json.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/publications/mavenJava/pom-default.xml.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.asc.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.asc.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.asc.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.asc.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.jar.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.asc.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.asc.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.asc.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.asc.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.module.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.asc.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.asc.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.asc.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.asc.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/json-data-storage-1.0-20230125.162915-1.pom.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml.sha256" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/1.0-SNAPSHOT/maven-metadata.xml.sha512" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml.sha256" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/build/repos/snapshots/io/github/omegaui/json-data-storage/maven-metadata.xml.sha512" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/publishMavenJavaPublicationToMavenRepository/module-maven-metadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/publishMavenJavaPublicationToMavenRepository/snapshot-maven-metadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omegaui/io/storage/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omegaui/io/storage/DataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omegaui/io/storage/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omegaui/io/storage/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +53,13 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="json-data-storage" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="publishing" type="c8890929:TasksNode$1" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="json-data-storage" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -152,7 +114,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.json-data-storage [javadoc]">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="json-data-storage.test" />

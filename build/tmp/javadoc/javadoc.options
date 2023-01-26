@@ -1,8 +1,0 @@
--classpath '/home/omegaui/IdeaProjects/json-data-storage/build/classes/java/main:/home/omegaui/IdeaProjects/json-data-storage/build/resources/main:/home/omegaui/.gradle/caches/modules-2/files-2.1/org.json/json/20171018/36ced462c97f0845b4a7b266a25cebe95d18baa3/json-20171018.jar'
--d '/home/omegaui/IdeaProjects/json-data-storage/build/docs/javadoc'
--doctitle 'json-data-storage 1.0-SNAPSHOT API'
--notimestamp 
--quiet 
--windowtitle 'json-data-storage 1.0-SNAPSHOT API'
-'/home/omegaui/IdeaProjects/json-data-storage/src/main/java/omegaui/io/storage/DataStorage.java'
-'/home/omegaui/IdeaProjects/json-data-storage/src/main/java/omegaui/io/storage/FileUtils.java'

@@ -1,1 +1,7 @@
-{"theme": "atom light"}
+{
+    "values": {
+        "x": "1",
+        "y": "2"
+    },
+    "theme": "atom light"
+}
