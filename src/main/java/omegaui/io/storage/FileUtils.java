@@ -29,8 +29,10 @@ import java.util.Scanner;
  * Contains common file utility methods.
  */
 public class FileUtils {
-    /*
-        Constructs a path by joining nodes.
+    /**
+     * Constructs a path by joining nodes.
+     * @param paths array of path
+     * @return path
      */
     public static String join(String... paths){
         StringBuilder result = new StringBuilder();
@@ -39,8 +41,10 @@ public class FileUtils {
         }
         return result.substring(0, result.length() - 1);
     }
-    /*
-        Reads and returns the content of a text file.
+    /**
+     * Reads and returns the content of a text file.
+     * @param file File Object
+     * @return String contents
      */
     public static String read(File file){
         if(!file.exists()){
@@ -56,9 +60,12 @@ public class FileUtils {
         }
         return content;
     }
-    /*
-        Writes content to a text file.
-        Returns true on successful write operation.
+    /**
+     * Writes content to a text file.
+     * Returns true on successful write operation.
+     * @param file File Object
+     * @param content content of the file
+     * @return boolean
      */
     public static boolean write(File file, String content){
         File parent = file.getParentFile();

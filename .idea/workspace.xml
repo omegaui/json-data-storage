@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00016e3e-b102-460d-b47d-49e13f4a35f9" name="Changes" comment="🚀 Added DataStorage.query() -- traverse faster!">
+    <list default="true" id="00016e3e-b102-460d-b47d-49e13f4a35f9" name="Changes" comment="🚀 Added DataStorage.query() -- traverse faster!, Added Snapshots!">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omegaui/io/storage/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omegaui/io/storage/DataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omegaui/io/storage/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omegaui/io/storage/FileUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +122,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.json-data-storage [generateMetadataFileForMavenJavaPublication]">
+  <component name="RunManager" selected="Gradle.json-data-storage [javadoc]">
     <configuration name="json-data-storage [generateMetadataFileForMavenJavaPublication]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -162,7 +165,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="json-data-storage [publishAllPublicationsToMavenRepository]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="json-data-storage [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,7 +176,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="publishAllPublicationsToMavenRepository" />
+            <option value="javadoc" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -227,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.json-data-storage [javadoc]" />
         <item itemvalue="Gradle.json-data-storage [generateMetadataFileForMavenJavaPublication]" />
         <item itemvalue="Gradle.json-data-storage [generatePomFileForMavenJavaPublication]" />
         <item itemvalue="Gradle.json-data-storage [publish]" />
         <item itemvalue="Gradle.json-data-storage [publishToMavenLocal]" />
-        <item itemvalue="Gradle.json-data-storage [publishAllPublicationsToMavenRepository]" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674716379565</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="🚀 Added DataStorage.query() -- traverse faster!, Added Snapshots!">
+      <created>1674716472478</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674716472478</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -287,6 +297,7 @@
     <MESSAGE value=" Glorified README.md!" />
     <MESSAGE value=" Added pom.xml!" />
     <MESSAGE value=" Added DataStorage.query() -- traverse faster!" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Added DataStorage.query() -- traverse faster!" />
+    <MESSAGE value=" Added DataStorage.query() -- traverse faster!, Added Snapshots!" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Added DataStorage.query() -- traverse faster!, Added Snapshots!" />
   </component>
 </project>
