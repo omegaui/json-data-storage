@@ -1,5 +1,4 @@
 plugins {
-    id 'java'
     id 'java-library'
     id 'maven-publish'
     id 'signing'
@@ -59,11 +58,6 @@ publishing {
             url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
         }
     }
-}
-
-
-signing {
-    sign publishing.publications.mavenJava
 }
 
 dependencies {
