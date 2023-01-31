@@ -35,6 +35,42 @@ storage.put("theme", "dark");
 
 #### Note: DataStorage.getStorage() **auto-constructs** the path if it doesn't already exist
 
+### Querying nested data
+DataStorage also allows you to directly access nested objects without needing to use a builder
+form or caching multiple objects.
+
+To do so, you just need to call `DataStorage.query()` that requires the ordered arrangement of the hierarchy.
+
+Example:
+```java
+
+public class Preferences {
+    public static void save(){
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("Simon", 99);
+        map.put("Alex", 96);
+        map.put("Sofia", 89);
+
+        DataStorage storage = DataStorage.getStorage(".config", "settings.json");
+        storage.put("students", map); // Auto-Save
+
+        System.out.println(storage.query("students", "Simon"));
+        // Displays 99
+
+
+        DataStorage storage2 = DataStorage.getStorage(".config", "settings.json");
+        storage2.put("teachers", 18); // Auto-Save
+        // storage2 is the same storage object with no object redundancy 😎
+
+    }
+
+    public static void main(String[] args) {
+        save();
+    }
+}
+
+```
+
 # ![](https://img.icons8.com/3d-fluency/48/null/smartphone-tablet.png) Handling Multiple References
 
 Now, if there are multiple cases requesting the reference to the same DataStorage object, so instead of 
