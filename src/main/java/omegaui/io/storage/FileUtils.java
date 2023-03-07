@@ -69,7 +69,7 @@ public class FileUtils {
      */
     public static boolean write(File file, String content){
         File parent = file.getParentFile();
-        if(parent != null) {
+        if(parent != null && !parent.exists()) {
             if(!parent.mkdirs()){
                 System.err.println("Cannot construct the parent directories: " + file);
                 return false;
