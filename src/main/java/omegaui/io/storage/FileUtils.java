@@ -1,18 +1,19 @@
 /**
  * Common FileUtils.
+ *
  * @author: omegaui
  * Copyright (C) 2023 Omega UI
-
+ * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
-
+ * <p>
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
-
+ * <p>
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
@@ -34,32 +35,34 @@ public class FileUtils {
      * @param paths array of path
      * @return path
      */
-    public static String join(String... paths){
+    public static String join(String... paths) {
         StringBuilder result = new StringBuilder();
-        for(String path : paths){
+        for (String path : paths) {
             result.append(path).append(File.separator);
         }
         return result.substring(0, result.length() - 1);
     }
+
     /**
      * Reads and returns the content of a text file.
      * @param file File Object
      * @return String contents
      */
-    public static String read(File file){
-        if(!file.exists()){
+    public static String read(File file) {
+        if (!file.exists()) {
             return null;
         }
-        String content = "";
+        StringBuilder content = new StringBuilder();
         try (Scanner reader = new Scanner(file)) {
-            while(reader.hasNextLine()){
-                content += reader.nextLine() + "\n";
+            while (reader.hasNextLine()) {
+                content.append(reader.nextLine()).append("\n");
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-        return content;
+        return content.toString();
     }
+
     /**
      * Writes content to a text file.
      * Returns true on successful write operation.
@@ -67,10 +70,10 @@ public class FileUtils {
      * @param content content of the file
      * @return boolean
      */
-    public static boolean write(File file, String content){
+    public static boolean write(File file, String content) {
         File parent = file.getParentFile();
-        if(parent != null) {
-            if(!parent.mkdirs()){
+        if (parent != null) {
+            if (!parent.mkdirs()) {
                 System.err.println("Cannot construct the parent directories: " + file);
                 return false;
             }
